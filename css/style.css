@@ -6,7 +6,6 @@
 }
 
 html {
-	background-image: url('https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMII.jpg');
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -33,15 +32,13 @@ html {
 header {
 	width: 100%;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
 	padding: 10px;
 }
 
 header h1 {
 	font-weight: normal;
 	font-size: 48px;
-	padding: 10px;
-	margin: 0;
+	margin: 10px;
 }
 
 header p {
@@ -51,7 +48,6 @@ header p {
 body p {
 	font-weight: normal;
 	font-size: 24px;
-	padding: 10px;
-	background-color: rgba(0, 0, 0, 0.5);
+	margin: 10px;
 }
 
