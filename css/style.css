@@ -45,9 +45,8 @@ html {
 }
 
 header, footer, .boxed {
-	border: 1px dotted white;
+	border: 3px double white;
 	background: black;
-	border-radius: 5px;
 }
 
 header {
