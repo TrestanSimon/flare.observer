@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'AV Hershey Simplex';
+  src: url(../fonts/AVHersheySimplexMedium.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+	font-family: 'AV Hershey Simplex', monospace;
+	font-weight: normal;
+	background: black;
+	color: white;
+}
+
+::selection {
+	background: white;
+	color: black;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+header h1 {
+	font-weight: normal;
+	font-size: 48px;
+}
+
+header p {
+	font-size: 24px
+}
+
+body p {
+	font-weight: normal;
+	font-size: 24px;
+}
