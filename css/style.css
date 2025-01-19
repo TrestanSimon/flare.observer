@@ -6,7 +6,7 @@
 }
 
 html {
-	background-image: url('https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0131.jpg');
+	background-image: url('https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMII.jpg');
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -34,22 +34,24 @@ header {
 	width: 100%;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
 }
 
 header h1 {
 	font-weight: normal;
 	font-size: 48px;
-	padding: 0;
+	padding: 10px;
 	margin: 0;
 }
 
-header .subtitle {
-	font-size: 24px
+header p {
+	font-size: 24px;
 }
 
-p {
+body p {
 	font-weight: normal;
 	font-size: 24px;
+	padding: 10px;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
