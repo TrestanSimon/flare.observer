@@ -18,10 +18,11 @@
 
 html {
 	background-color: black;
+	/*background-image: url(https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0131.jpg);*/
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 	background-attachment: local;
-	background-position: center;
+	background-position: top;
 }
 
 ::selection {
@@ -43,9 +44,14 @@ html {
 	margin: auto auto;
 }
 
+header, footer, .boxed {
+	border: 1px dotted white;
+	background: black;
+	border-radius: 5px;
+}
+
 header {
 	text-align: center;
-	border: 3px double white;
 	margin-top: 15px;
 	overflow: hidden;
 	height: auto;
@@ -62,15 +68,19 @@ header p {
 	margin: 0px 0px 10px 0px;
 }
 
+footer {
+	padding: 5px;
+	text-align: center;
+}
+
 #main-body {
 	width: 100%;
 }
 
-#main-body p {
+.boxed {
 	font-size: 18px;
 	padding: 10px;
 	margin-top: 0px;
-	border: 3px double white;
 }
 
 nav {
