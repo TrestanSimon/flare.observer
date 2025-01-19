@@ -5,15 +5,23 @@
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'Free Pixel';
+	src: url(../fonts/FreePixel.ttf) format('truetype');
+}
+
+* {
+	font-family: 'AV Hershey Simplex', monospace;
+	font-weight: normal;
+	color: white;
+}
+
 html {
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: local;
 	background-position: center;
-	font-family: 'AV Hershey Simplex', helvetica, monospace;
-	font-weight: normal;
-	color: white;
 }
 
 ::selection {
@@ -22,8 +30,11 @@ html {
 }
 
 #wrapper {
-	width: 600px;
-	margin: auto auto;
+	width: 96vw;
+	margin: 0 auto;
+	padding: 0;
+	top: 0;
+	position: relative;
 }
 
 #icon {
@@ -33,31 +44,60 @@ html {
 }
 
 header {
-	width: 100%;
 	text-align: center;
+	border: 3px double white;
+	margin-top: 15px;
+	overflow: hidden;
+	height: auto;
 }
 
 header h1 {
 	font-weight: normal;
 	font-size: 48px;
-	margin-bottom: 0px;
+	margin: 10px 0px 0px 0px;
 }
 
 header p {
 	font-size: 18px;
+	margin: 0px 0px 10px 0px;
 }
 
 #main-body {
 	width: 100%;
 }
 
-p {
-	font-weight: normal;
-	font-size: 20px;
+#main-body p {
+	font-size: 18px;
+	padding: 10px;
+	margin-top: 0px;
+	border: 3px double white;
 }
 
-#main-body p {
-	padding: 10px;
-	border: 1px solid white;
+nav {
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+
+.link {
+	text-align: center;
+	display: inline-block;
+	font-weight: normal;
+	font-size: 24px;
+	padding: 5px;
+}
+
+.link a {
+	color: white;
+	text-decoration: none;
+}
+
+.link a:hover {
+	text-decoration: underline;
+}
+
+@media(min-width:600px) {
+	#wrapper {
+		width: 600px;
+	}
 }
 
