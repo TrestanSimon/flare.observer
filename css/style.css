@@ -11,10 +11,7 @@ html {
 	background-size: cover;
 	background-attachment: local;
 	background-position: center;
-}
-
-* {
-	font-family: 'AV Hershey Simplex', monospace;
+	font-family: 'AV Hershey Simplex', helvetica, monospace;
 	font-weight: normal;
 	color: white;
 }
@@ -29,25 +26,38 @@ html {
 	margin: auto auto;
 }
 
+#icon {
+	width: 80px;
+	display: block;
+	margin: auto auto;
+}
+
 header {
 	width: 100%;
 	text-align: center;
-	padding: 10px;
 }
 
 header h1 {
 	font-weight: normal;
 	font-size: 48px;
-	margin: 10px;
+	margin-bottom: 0px;
 }
 
 header p {
-	font-size: 24px;
+	font-size: 18px;
 }
 
-body p {
+#main-body {
+	width: 100%;
+}
+
+p {
 	font-weight: normal;
-	font-size: 24px;
-	margin: 10px;
+	font-size: 20px;
+}
+
+#main-body p {
+	padding: 10px;
+	border: 1px solid white;
 }
 
