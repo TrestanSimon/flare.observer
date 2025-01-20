@@ -5,13 +5,8 @@
   font-style: normal;
 }
 
-@font-face {
-	font-family: 'Free Pixel';
-	src: url(../fonts/FreePixel.ttf) format('truetype');
-}
-
 * {
-	font-family: 'AV Hershey Simplex', monospace;
+	font-family: 'AV Hershey Simplex', sans-serif;
 	font-weight: normal;
 	color: white;
 }
@@ -28,14 +23,12 @@ html {
 ::selection {
 	background: white;
 	color: black;
+	text-shadow: none;
 }
 
 #wrapper {
-	width: 96vw;
 	margin: 0 auto;
 	padding: 0;
-	top: 0;
-	position: relative;
 }
 
 #icon {
@@ -47,6 +40,7 @@ html {
 header, footer, .boxed {
 	border: 3px double white;
 	background: black;
+	/*box-shadow: -2px 0px 6px red, 2px 0px 6px blue;*/
 }
 
 header {
@@ -56,15 +50,20 @@ header {
 	height: auto;
 }
 
+
 header h1 {
+	display: inline-block;
 	font-weight: normal;
 	font-size: 48px;
-	margin: 10px 0px 0px 0px;
+	margin: 5px 0px 5px 0px;
+	color: white;
+	/*text-shadow: 0px 0px 2px white, -2px 2px 3px red, 2px -2px 3px blue;
+	transition: 0.3s;*/
 }
 
-header p {
-	font-size: 18px;
-	margin: 0px 0px 10px 0px;
+header h1:hover {
+	color: white;
+	text-shadow: none;
 }
 
 footer {
@@ -72,19 +71,10 @@ footer {
 	text-align: center;
 }
 
-#main-body {
-	width: 100%;
-}
-
-.boxed {
-	font-size: 18px;
-	padding: 10px;
-	margin-top: 0px;
-}
-
 nav {
 	text-align: center;
 	padding: 5px 5px 5px 5px;
+	margin: 10px 0px 10px 0px;
 }
 
 .link {
@@ -104,6 +94,27 @@ nav {
 .link a:hover {
 	color: transparent;
 	text-shadow: 0px 0px 2px white, -2px 2px 3px red, 2px -2px 3px blue;
+}
+
+.boxed {
+	font-size: 18px;
+	padding: 0px;
+	margin: 10px 0px 10px 0px;
+}
+
+#main-body h2 {
+	font-weight: bold;
+}
+
+.box-top {
+	border-bottom: 3px double white;
+	margin: 0;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.box-main {
+	padding: 10px;
 }
 
 @media(min-width:600px) {
