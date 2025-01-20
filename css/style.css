@@ -31,21 +31,15 @@ html {
 	padding: 0;
 }
 
-#icon {
-	width: 80px;
-	display: block;
-	margin: auto auto;
-}
-
-header, footer, .boxed {
-	border: 3px double white;
+header, nav a, .boxed {
+	border: 1px solid white;
 	background: black;
 	/*box-shadow: -2px 0px 6px red, 2px 0px 6px blue;*/
 }
 
 header {
 	text-align: center;
-	margin-top: 15px;
+	margin: 15px 0px 0px 0px;
 	overflow: hidden;
 	height: auto;
 }
@@ -53,17 +47,17 @@ header {
 
 header h1 {
 	display: inline-block;
+	margin: 15px 0px 0px 0px;
 	font-weight: normal;
 	font-size: 48px;
-	margin: 5px 0px 5px 0px;
 	color: white;
-	/*text-shadow: 0px 0px 2px white, -2px 2px 3px red, 2px -2px 3px blue;
-	transition: 0.3s;*/
 }
 
-header h1:hover {
+header p {
+	display: block;
+	margin: 0px 0px 15px 0px;
+	font-size: 24px;
 	color: white;
-	text-shadow: none;
 }
 
 footer {
@@ -72,34 +66,33 @@ footer {
 }
 
 nav {
-	text-align: center;
-	padding: 5px 5px 5px 5px;
-	margin: 10px 0px 10px 0px;
+	display: flex;
 }
 
-.link {
+nav a {
+	display: block;
+	flex: 1;
 	text-align: center;
-	display: inline-block;
-	font-weight: normal;
-	font-size: 24px;
-	padding: 5px;
-}
-
-.link a {
-	color: white;
 	text-decoration: none;
+	font-weight: normal;
+	font-size: 18px;
+	color: white;
+	padding: 5px;
+	border-top: none;
 	transition: 0.3s;
 }
 
-.link a:hover {
-	color: transparent;
-	text-shadow: 0px 0px 2px white, -2px 2px 3px red, 2px -2px 3px blue;
+nav a:hover {
+	/*color: transparent;
+	text-shadow: 0px 0px 2px white, -2px 2px 3px red, 2px -2px 3px blue;*/
+	background-color: white;
+	color: black;
 }
 
 .boxed {
 	font-size: 18px;
 	padding: 0px;
-	margin: 10px 0px 10px 0px;
+	margin: 25px 0px 25px 0px;
 }
 
 #main-body h2 {
@@ -120,10 +113,9 @@ nav {
 	width: 512px;
 }
 
-/* Account for borders, 3px + 512px + 3px */
-@media(min-width:518px) {
+@media(min-width:600px) {
 	#wrapper {
-		width: 518px;
+		width: 600px;
 	}
 }
 
