@@ -103,7 +103,6 @@ nav {
 }
 
 #main-body h2 {
-	font-weight: bold;
 }
 
 .box-top {
@@ -117,9 +116,14 @@ nav {
 	padding: 10px;
 }
 
-@media(min-width:600px) {
+.img-512 {
+	width: 512px;
+}
+
+/* Account for borders, 3px + 512px + 3px */
+@media(min-width:518px) {
 	#wrapper {
-		width: 600px;
+		width: 518px;
 	}
 }
 
