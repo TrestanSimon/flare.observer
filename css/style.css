@@ -14,7 +14,6 @@
 html {
 	background-color: black;
 	background-image: url(../images/stars.png);
-	/*background-image: url(https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0131.jpg);*/
 	background-repeat: repeat;
 	background-size: auto;
 	background-attachment: fixed;
@@ -51,14 +50,12 @@ header h1 {
 	margin: 15px 0px 0px 0px;
 	font-weight: normal;
 	font-size: 48px;
-	color: white;
 }
 
 header p {
 	display: block;
 	margin: 0px 0px 15px 0px;
 	font-size: 24px;
-	color: white;
 }
 
 footer {
@@ -96,9 +93,6 @@ nav a:hover {
 	margin: 25px 0px 25px 0px;
 }
 
-#main-body h2 {
-}
-
 .box-top {
 	border-bottom: 3px double white;
 	margin: 0;
@@ -108,10 +102,6 @@ nav a:hover {
 
 .box-main {
 	padding: 10px;
-}
-
-.img-512 {
-	width: 100%;
 }
 
 @media(min-width:600px) {
