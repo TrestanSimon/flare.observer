@@ -5,7 +5,6 @@
 
 * {
 	font-family: 'AV Hershey Simplex', sans-serif;
-	font-weight: normal;
 	color: white;
 }
 
@@ -19,7 +18,7 @@ html {
 }
 
 p {
-	font-size: 14px;
+	font-size: 18px;
 }
 
 h1 {
@@ -104,9 +103,9 @@ nav a:hover {
 	border-bottom: 1px solid white;
 }
 
-@media(min-width:600px) {
+@media(min-width:656px) {
 	#wrapper {
-		width: 600px;
+		width: 656px;
 	}
 }
 

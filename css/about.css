@@ -4,7 +4,7 @@
 }
 
 * {
-	font-family: sans-serif;
+	font-family: 'AV Hershey Simplex', sans-serif;
 	font-size: 16px;
 	color: white;
 }
@@ -119,9 +119,9 @@ nav :is(a, #copy):hover {
 	border-bottom: 1px solid white;
 }
 
-@media(min-width:800px) {
+@media(min-width:656px) {
 	#wrapper {
-		width: 800px;
+		width: 656px;
 	}
 }
 
