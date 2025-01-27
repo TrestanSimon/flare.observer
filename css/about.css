@@ -72,6 +72,10 @@ header :is(p, h1, h2) {
 	font-weight: normal;
 }
 
+header h1 {
+	font-family: 'AV Hershey Simplex'
+}
+
 footer {
 	padding: 5px;
 	text-align: center;
@@ -122,10 +126,6 @@ nav :is(a, #copy):hover {
 
 .box-top {
 	border-bottom: 1px solid white;
-}
-
-#commit-date {
-	font-family: monospace;
 }
 
 @media(min-width:656px) {
