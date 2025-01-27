@@ -133,6 +133,19 @@ nav :is(a, #copy):hover {
 	font-family: monospace;
 }
 
+#box-404 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+#box-404 h1 {
+	background: black;
+	border: 1px solid white;
+	padding: 10px;
+}
+
 @media(min-width:656px) {
 	#wrapper {
 		width: 656px;
