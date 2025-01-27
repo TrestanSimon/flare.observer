@@ -4,8 +4,8 @@
 }
 
 * {
-	font-family: 'AV Hershey Simplex', sans-serif;
-	font-size: 16px;
+	font-family: sans-serif;
+	font-size: 14px;
 	color: white;
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 p {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 h1 {
@@ -84,12 +84,17 @@ nav {
 nav :is(a, #copy, #domain) {
 	display: block;
 	flex: 1;
-	font-size: 14px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
 	padding: 1px 5px;
 	transition: 0.3s;
+}
+
+nav.sub-title a {
+	background: black;
+	border: 1px solid white;
+	border-top: none;
 }
 
 nav :is(a, #copy):hover {
@@ -117,6 +122,10 @@ nav :is(a, #copy):hover {
 
 .box-top {
 	border-bottom: 1px solid white;
+}
+
+#commit-date {
+	font-family: monospace;
 }
 
 @media(min-width:656px) {
