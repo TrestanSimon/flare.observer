@@ -56,6 +56,11 @@ button {
 	padding: 1px 5px;
 }
 
+#home-link {
+	text-align: left;
+	font-size: 14px;
+}
+
 header, footer, .boxed {
 	border: 1px solid white;
 	background: black;
