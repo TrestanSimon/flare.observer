@@ -141,6 +141,17 @@ nav :is(a, #copy):hover {
 	margin: 10px;
 }
 
+.boxed a {
+	color: white;
+	text-decoration: none;
+	font-family: monospace;
+}
+
+.boxed a:hover {
+	background-color: white;
+	color: black;
+}
+
 .box-top {
 	border-bottom: 1px solid white;
 }
