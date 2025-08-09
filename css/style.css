@@ -16,7 +16,7 @@ html {
 	background-position: top;
 }
 
-p {
+p, li {
 	font-size: 14px;
 	line-height: 1.6;
 }
@@ -31,6 +31,10 @@ h2 {
 
 h3 {
 	font-size: 18px;
+}
+
+code {
+	font-family: monospace;
 }
 
 button {
@@ -79,7 +83,7 @@ header :is(h1, h2, h3) {
 	margin: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, summary {
 	line-height: 1;
 	font-family: 'AV Hershey Simplex';
 	font-weight: normal;
@@ -137,8 +141,23 @@ nav :is(a, #copy):hover {
 	margin: 5px 10px;
 }
 
-.boxed p {
+.boxed :is(p, h3) {
 	margin: 10px;
+}
+
+.boxed h3 {
+	font-size: 16px;
+	font-family: sans-serif;
+	margin: 20px 10px 10px 10px;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.boxed summary {
+	font-size: 16px;
+	font-family: sans-serif;
+	margin: 0px 10px 10px 10px;
+	line-height: 1.2;
 }
 
 .boxed a {
