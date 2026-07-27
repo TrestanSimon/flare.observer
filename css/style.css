@@ -17,7 +17,7 @@ html {
 }
 
 p, li {
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.6;
 }
 
@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 24px;
 }
 
 code {
@@ -62,7 +62,7 @@ button {
 
 #home-link {
 	text-align: left;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 header, footer, .boxed {
@@ -197,4 +197,3 @@ nav :is(a, #copy):hover {
 		width: 656px;
 	}
 }
-
