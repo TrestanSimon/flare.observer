@@ -66,7 +66,7 @@ button {
 }
 
 header, footer, .boxed {
-	border: 1px solid white;
+	/*border: 1px dotted white;*/
 	background: black;
 	/*box-shadow: -2px 0px 6px red, 2px 0px 6px blue;*/
 }
@@ -134,14 +134,14 @@ nav :is(a, #copy):hover {
 }
 
 .boxed {
-	margin: 25px 0px;
+	margin: 40px 0px;
 }
 
 .boxed :is(h1, h2) {
 	margin: 5px 10px;
 }
 
-.boxed :is(p, h3) {
+.boxed :is(p, li, h3) {
 	margin: 10px;
 }
 
@@ -150,7 +150,7 @@ nav :is(a, #copy):hover {
 	font-family: sans-serif;
 	margin: 20px 10px 10px 10px;
 	line-height: 1.2;
-	text-align: center;
+	text-align: left;
 }
 
 .boxed summary {
@@ -160,19 +160,8 @@ nav :is(a, #copy):hover {
 	line-height: 1.2;
 }
 
-.boxed a {
-	color: white;
-	text-decoration: none;
-	font-family: monospace;
-}
-
-.boxed a:hover {
-	background-color: white;
-	color: black;
-}
-
 .box-top {
-	border-bottom: 1px solid white;
+	border-bottom: 1px dotted white;
 }
 
 #commit-date {
