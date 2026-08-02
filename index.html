@@ -3,35 +3,201 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>flare.observer</title>
+		<title>Trestan F. Simon | flare.observer</title>
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="icon" href="./images/favicon.svg">
-		<script src="js/scripts.js"></script>
 	</head>
 	<body>
-		<div id="wrapper">
-			<header>
-				<h1>flare.<wbr>observer</h1>
-			</header>
-			<nav class="sub-title">
-				<a href="https://flare.observer/about.html">About</a>
-				<a href="https://github.com/TrestanSimon">Code</a>
-				<a href="https://commons.wikimedia.org/w/index.php?title=Special:ListFiles/CoronalMassAffection&ilshowall=1">Media</a>
-			</nav>
-			<div id="main-body">
-				<div class="boxed">
-					<div class="box-top">
-						<h2>Introduction</h2>
-					</div>
-					<div>
-						<p>Hello. My name is Trestan, and this is my personal website, <a href="https://flare.observer">flare.observer</a>.</p>
-					</div>
+		<header class="hero">
+			<nav>
+				<a href="index.html" class="logo">flare.observer</a>
+				<div class="nav-links">
+					<a href="#projects">Projects</a>
+					<a href="#research">Research</a>
+					<a href="https://orcid.org/0009-0000-3029-8619" target="_blank">ORCID</a>
+					<a href="#contact">Contact</a>
 				</div>
+			</nav>
+			<div class="hero-content">
+				<h1>Trestan F. Simon</h1>
+				<p class="subtitle">
+					University&nbsp;of&nbsp;Colorado&nbsp;Boulder&nbsp;·
+					Laboratory&nbsp;for&nbsp;Atmospheric and&nbsp;Space&nbsp;Physics</p>
+				<p class="intro">
+					Undergraduate student focused on the solar&nbsp;atmosphere, solar&nbsp;wind, and space&nbsp;weather forecasting
+				</p>
 			</div>
-			<footer>
-				<p>&copy; 2026 Trestan F. Simon</p>
-				<p>Page last modified: <a id="last-modified" href="https://github.com/TrestanSimon/flare.observer/commits/main/"></a></p>
-			</footer>
-		</div>
+		</header>
+		<main>
+			<section id="projects">
+				<h2>Featured Projects</h2>
+				<div class="project-grid">
+					<article class="project-card">
+						<a href="https://doi.org/10.1007/s11207-026-02708-z" target="_blank">
+							<video autoplay muted loop poster="images/sadcat_preview_poster.png" class="cover">
+								<source src="videos/sadcat_preview.mp4" type="video/mp4">
+							</video>
+							<div class="project-content">
+								<h3>SADCat</h3>
+								<p>
+									A catalog of solar flares with visible supra-arcade downflows, or SADs, imaged by SDO/AIA during solar cycle 24.
+									SADs are dark, tadpole-like voids that descend through the solar corona toward bright post-flare loops.
+									The SADCat was a UROP-funded project that I worked on with Dr.&nbsp;Ryan French.
+								</p>
+								<span>View the <i>Solar Physics</i> paper...</span>
+							</div>
+						</a>
+					</article>
+					<article class="project-card">
+						<a href="https://cpaess.ucar.edu/sites/default/files/punch-7-posters/simon-trestan.pdf" target="_blank">
+							<video autoplay muted loop>
+								<source src="videos/stria_preview.mp4" type="video/mp4">
+							</video>
+							<div class="project-content">
+								<h3>STRIA</h3>
+								<p>
+									A 3D, time-dependent density model of the structured solar wind that
+									I am working on at LASP under Prof.&nbsp;Steven Cranmer.
+									We analyze synthetic coronagraph imagery generated with STRIA to support the PUNCH mission and improve our understanding of flows near the Alfvén surface.
+								</p>
+								<span>View the <i>Punch 7 Science Meeting</i> poster...</span>
+							</div>
+						</a>
+					</article>
+					<article class="project-card">
+						<a href="https://en.wikipedia.org/wiki/User:CoronalMassAffection" target="_blank">
+							<img class="light-background" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Hale%27s_law_diagram_north-south.svg/1280px-Hale%27s_law_diagram_north-south.svg.png" alt="">
+							<div class="project-content">
+								<h3>Solar Physics Outreach on Wikipedia</h3>
+								<p>I edit, write, and create diagrams for solar physics articles on Wikipedia.</p>
+								<span>View my Wikipedia user page...</span>
+							</div>
+						</a>
+					</article>
+					<article class="project-card">
+						<a href="https://github.com/TrestanSimon/Manifoldsweeper" target="_blank">
+							<div class="slideshow">
+								<img src="https://media.githubusercontent.com/media/TrestanSimon/Manifoldsweeper/main/Assets/Samples/Mobius_3D.png" alt="">
+								<img src="https://media.githubusercontent.com/media/TrestanSimon/Manifoldsweeper/main/Assets/Samples/Klein_3D.png" alt="">
+								<img src="https://media.githubusercontent.com/media/TrestanSimon/Manifoldsweeper/main/Assets/Samples/torus_3D.png" alt="">
+							</div>
+							<div class="project-content">
+								<h3>Manifoldsweeper</h3>
+								<p>A mine-clearing game on tesselated 2&#8209;manifolds written in C# for my senior project at the Red Bank Regional High School Academy of Information Technology</p>
+								<span>View the GitHub project page...</span>
+							</div>
+						</a>
+					</article>
+				</div>
+			</section>
+			<section id="research">
+				<h2>Research</h2>
+				<div class="research-section">
+					<h3>Articles</h3>
+					<article class="publication">
+						<p class="authors"><strong>Simon,&nbsp;T.&nbsp;F.</strong> and French,&nbsp;R.&nbsp;J. (2026)</p>
+						<p class="title">"SADCat: A Catalog of Supra-Arcade Downflow Events in Solar Flares"</p>
+						<p class="journal"><i>Solar Physics</i>, 301, 113.</p>
+						<p class="publication-links">
+							<a href="https://doi.org/10.1007/s11207-026-02708-z" target="_blank">DOI</a>
+							<a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260703697S/abstract" target="_blank">ADS</a>
+							<a href="https://arxiv.org/abs/2607.03697" target="_blank">arXiv</a>
+							<a href="#">Online SADCat</a>
+						</p>
+					</article>
+					<h3>Presentations</h3>
+					<article class="publication">
+						<p class="authors"><strong>Simon,&nbsp;T.</strong>, Cranmer,&nbsp;S.&nbsp;R., Gilly,&nbsp;C.&nbsp;R., and Gibson,&nbsp;S.&nbsp;E. (2026)</p>
+						<p class="title">"Modeling the Structured Solar Wind with STRIA"</p>
+						<p class="journal">Poster, <i>PUNCH&nbsp;7&nbsp;Science&nbsp;Meeting</i>, Boulder,&nbsp;CO, 12&#8211;&#8288;14&nbsp;May&nbsp;2026.</p>
+						<p class="publication-links">
+							<a href="https://cpaess.ucar.edu/abstract-punch-7/modeling-structured-solar-wind-stria" target="_blank">Abstract</a>
+							<a href="https://cpaess.ucar.edu/sites/default/files/punch-7-posters/simon-trestan.pdf" target="_blank">Poster</a>
+							<a href="https://cpaess.ucar.edu/sites/default/files/drought-2025-presentations/simon-trestan.pdf" target="_blank">Presentation</a>
+							<a href="https://youtu.be/xgmHvLjNewU?t=24854" target="_blank">Recording</a>
+						</p>
+					</article>
+					<article class="publication">
+						<p class="authors">Cranmer,&nbsp;S.&nbsp;R., <strong>Simon,&nbsp;T.&nbsp;F.</strong>, Chhiber,&nbsp;R., and Gilly,&nbsp;C.&nbsp;R. (2025)</p>
+						<p class="title">"Mapping the Sun's Alfven Surface (Soon!) with PUNCH"</p>
+						<p class="journal">Invited&nbsp;Talk, <i>PUNCH&nbsp;6&nbsp;Science&nbsp;Meeting</i>, San&nbsp;Luis&nbsp;Obispo, CA, 25&#8211;&#8288;26&nbsp;February&nbsp;2025.</p>
+						<p class="publication-links">
+							<a href="https://cpaess.ucar.edu/abstract-punch-6/mapping-suns-alfven-surface-soon-punch" target="_blank">Abstract</a>
+							<a href="https://cpaess.ucar.edu/sites/default/files/punch-6-presentation/cranmer-steven.pdf" target="_blank">Presentation</a>
+							<a href="https://youtu.be/GFwl8zbQOhg?si=J0y6Z-l5Jt3H5TAC&t=1541" target="_blank">Recording</a>
+						</p>
+					</article>
+					<h3>Software</h3>
+					<article class="publication">
+						<p class="authors">Stansby, D., et al. (2025)</p>
+						<p class="title">sunpy/sunkit-magex (v1.1.0)</p>
+						<p class="journal">Zenodo.</p>
+						<p class="publication-links">
+							<a href="https://doi.org/10.5281/zenodo.15360919" target="_blank">DOI</a>
+							<a href="https://github.com/sunpy/sunkit-magex" target="_blank">GitHub</a>
+							<a href="https://github.com/sunpy/sunkit-magex/commits/main/?author=TrestanSimon" target="_blank">Commits</a>
+						</p>
+					</article>
+					<article class="publication">
+						<p class="authors">Mumford, S. J., et al. (2024)</p>
+						<p class="title">SunPy (v5.1.1)</p>
+						<p class="journal">Zenodo.</p>
+						<p class="publication-links">
+							<a href="https://doi.org/10.5281/zenodo.10514903" target="_blank">DOI</a>
+							<a href="https://github.com/sunpy/sunpy" target="_blank">GitHub</a>
+							<a href="https://github.com/sunpy/sunpy/commits/main/?author=TrestanSimon" target="_blank">Commits</a>
+						</p>
+					</article>
+					<article class="publication">
+						<p class="authors">Stansby, D., et al. (2023)</p>
+						<p class="title">pfsspy (1.2.0)</p>
+						<p class="journal">Zenodo.</p>
+						<p class="publication-links">
+							<a href="https://doi.org/10.5281/zenodo.7929318" target="_blank">DOI</a>
+							<a href="https://github.com/dstansby/pfsspy" target="_blank">GitHub</a>
+							<a href="https://github.com/dstansby/pfsspy/commits/main/?author=TrestanSimon" target="_blank">Commits</a>
+						</p>
+					</article>
+					<article class="publication">
+						<p class="authors">Murphy, N. A., et al. (2022)</p>
+						<p class="title">PlasmaPy (0.9.0)</p>
+						<p class="journal">Zenodo.</p>
+						<p class="publication-links">
+							<a href="https://doi.org/10.5281/zenodo.7303557" target="_blank">DOI</a>
+							<a href="https://github.com/PlasmaPy/PlasmaPy" target="_blank">GitHub</a>
+							<a href="https://github.com/PlasmaPy/PlasmaPy/commits/main/?author=TrestanSimon" target="_blank">Commits</a>
+						</p>
+					</article>
+				</div>
+			</section>
+			<section id="education">
+				<h2>Education</h2>
+				<article class="education-entry">
+					<p class="degree"><strong>BS in Astrophysics, Minor in Applied Math</strong>, 2027&nbsp;(expected)</p>
+					<p class="school"><strong>University of Colorado Boulder</strong>: Boulder,&nbsp;CO</p>
+					<p class="activities">Arts and Sciences Honors Program</p>
+				</article>
+				<article class="education-entry">
+					<p class="degree"><strong>High School Diploma</strong>, 2023</p>
+					<p class="school"><strong>Red Bank Regional High School</strong>: Little&nbsp;Silver,&nbsp;NJ</p>
+					<p class="activities">Graduated valedictorian; Academy of Information Technology</p>
+				</article>
+			</section>
+			<section id="employment">
+				<h2>Employment</h2>
+				<article class="employment-entry">
+					<p class="job-title"><strong>Undergraduate Research Assistant</strong>, January&nbsp;2024&nbsp;&#8211;&#8288;&nbsp;present</p>
+					<p class="place-of-work"><strong>Laboratory for Atmospheric and Space Physics</strong>: Boulder,&nbsp;CO</p>
+					<p class="work-details">Supervised by Prof. Steven Cranmer</p>
+				</article>
+			</section>
+			<section id="contact" class="content-section">
+				<h2>Contact</h2>
+				<p>Email: <a href="mailto:trestan.simon@colorado.edu">trestan.simon@colorado.edu</a></p>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2026 Trestan F. Simon</p>
+		</footer>
 	</body>
 </html>
