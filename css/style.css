@@ -1,13 +1,9 @@
 :root {
-	--background: rgb(16, 16, 28);
-    --surface: #201f29;
-
+	--background: rgb(0, 0, 0);
+    --surface: #121117;
     --text: #ffffff;
     --muted: #c4c4c4;
-
     --gold: #f2b233;
-
-    --border: rgba(245,185,66,0.25);
 }
 
 * {
@@ -42,9 +38,9 @@ a {
     min-height: 400px;
     padding: 2rem max(5vw, 2rem);
     background:
-        linear-gradient(
-            rgba(0, 0, 0, 0),
-            var(--background)
+        linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 20%,
+            var(--background) 100%
         ),
         url("../images/hero_background.png");
 
@@ -107,7 +103,6 @@ nav {
     color: var(--muted);
 }
 
-
 /* ----------------------------- Layout ------------------------------ */
 
 main {
@@ -140,8 +135,8 @@ h2 {
 
 .project-card {
     background: var(--surface);
-    border: 1px solid #222;
-    border-radius: 6px;
+    border: 1px solid grey;
+    border-radius: 0px;
     overflow: hidden;
     transition:
         transform .25s ease,
@@ -149,8 +144,8 @@ h2 {
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    border-color: var(--gold);
+    /*transform: translateY(-5px);*/
+    border: 1px solid var(--gold);
 }
 
 .project-card a {
@@ -175,6 +170,8 @@ h2 {
 .light-background {
 	background: white !important;
 	display: block;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
 .project-content {
@@ -236,7 +233,7 @@ h2 {
 
 .research-section h3 {
     color: var(--gold);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 0;
 }
 
@@ -254,7 +251,7 @@ h2 {
 }
 
 .title {
-    font-weight: 600;
+    font-weight: normal;
     color: white;
 }
 
@@ -269,7 +266,7 @@ h2 {
 
 .publication-links a {
     margin-right: 1rem;
-    color: var(--gold);
+    color: var(--muted);
 }
 
 
